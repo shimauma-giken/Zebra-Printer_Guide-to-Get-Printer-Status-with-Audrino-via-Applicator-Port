@@ -16,6 +16,7 @@
 
 #### 最低限必要なもの
 
+
 1. Zebra Link-OS プリンタ（Applicator Port必須*）
 2. Arduino**
 3. D-sub15ケーブル、コネクタ（プリンタとAudrino間を接続できるケーブルやコネクタ）***
@@ -28,6 +29,20 @@
 \*** 環境に合わせて用意をすること  
 
 ※ プリンタ以外はAmazon、秋月電気、千石電商などの電子専門店で入手が可能。
+
+<br>
+<br>
+
+#### 筆者の構成（参考情報）
+
+|品目|入手先|
+|-|-|
+| Arduino Uno R4 Wi-Fi | [千石電商](https://www.sengoku.co.jp/mod/sgk_cart/search.php?cid=5815) |
+| D-sub15 変換コネクタ      | [Amazon](https://www.amazon.co.jp/PENGLIN-D-SUB15%E3%83%94%E3%83%B3%E5%A4%89%E6%8F%9B%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF-%E3%82%AA%E3%82%B9-%E3%83%A1%E3%82%B9-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF%E3%83%BC-D-SUB15%E3%83%94%E3%83%B3%E3%82%AA%E3%82%B9-D-SUB15%E3%83%94%E3%83%B3%E3%83%A1%E3%82%B9%E5%A4%89%E6%8F%9B%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF/dp/B0C288WTNT/ref=sr_1_1_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=18ST1AMUI2LE5&dib=eyJ2IjoiMSJ9.cnREw4FbEkaBUlS7deefdhMeN_mV7SbeQsUcyAi8gHsBZMrcxBtu_bIlnet6_ERqt9NmVg5mANxiCwUg02zh-aaLF_lB5DO70cUpUbZXBaGPb-prYAnW-YPKf9SUSAySiW0CqObORVvFZnf6MbTv4j7ChYY73GmCNWj8856woJXk7j_sSCU8OhjYnoDoQkvz8uzQLs00gCXRxZ5VFIwQk3GupIvwWMYqQutkb-kVvYUS0hHYViFhj3ORIXj6ZAaDkdyzEJ_ve_xVqnxdbdam3-CEs25_WeJebmWdeVuPFQA.OyOATy2YALG978lGYYI8Z9BIR-eziBCOoXH2FgmrjXE&dib_tag=se&keywords=d-sub15&qid=1723719182&sprefix=d-sub15+%2Caps%2C272&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+| D-sub15 ケーブル      | [Amazon](https://www.amazon.co.jp/s?k=db15%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3CHZASMP87XSJ&sprefix=db15%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%2Caps%2C183&ref=nb_sb_noss_2)
+| その他もろもろ    | [秋月電子通商](https://akizukidenshi.com/catalog/default.aspx/)
+
+<img height="500" src="image/README/1723719456889.png">
 
 <br>
 
@@ -50,7 +65,7 @@
 
 
    <br>
-5. 下記コードをArduinoにインストールする。
+5. 下記コードをArduinoにアップロードする。
 
    下記プログラムの概要は下記の通り。
 
